@@ -1,7 +1,7 @@
 etchasketch.py
 ==============
 
-The backstory
+The back story
 -------------
 
 This happened late on a school night. It was a dark and dreary day, and I wasn't entirely sure what the hell I wanted to program.  
@@ -11,7 +11,7 @@ Armed with nothing more than the PEP8 specs, Python documentation and some mount
 
 And so it was born: `etchasketch.py` - not quite good, not quite bad; sitting somewhere in between was my new child. I had spent a good _20 minutes_ on this project, and it had turned out __OK-ish__.  
 _"Dear lord, what have I created?!"_ I muttered again - clearly talking to my good friend _nobody_.  
-_"It's.. It's... IT'S GENIUS!"_ the cry came from my voice. This was pure genius. Nothing in the history of the internet could ever be this amazing, this glorious; __this sketchy__.
+_"It's.. It's... IT'S GENIUS!"_ the cry came from my voice. This was pure genius. Nothing in the history of the Internet could ever be this amazing, this glorious; __this sketchy__.
 
 Notes
 -----
@@ -52,6 +52,8 @@ It's fairly simple, but there are some less intuitive things about it all:
 + __Use your arrow keys to draw!__
 + `s` will __shake__ the board (resetting and making it refill your terminal (if you resize it at all))
 + `q` will __quit__ your board. Why you'd ever want to do that is beyond me.
++ Your cursor is the `+` - it starts at the top left (position `0, 0`).
+    + If you shake the board, your cursor __will stay at the same spot__.
 
 License
 -------
